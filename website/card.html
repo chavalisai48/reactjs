@@ -1,0 +1,150 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,
+	intial-scale=1.0">
+	<title>profile cards</title>
+	<link rel="icon"  href="imga.png">
+	<style type="text/css">
+		 .profile{
+           display: flex;
+           width: 100%;
+           border: 2px solid blue;
+           padding: 1%;
+           margin: 1%;
+		}
+		.card{
+             padding: 1%;
+             margin: 1%;
+             width: 30%;
+             border: 2px solid maroon;
+             text-align: center;
+             box-shadow: 10px 10px 10px 10px;
+             border-radius: 20%;
+		}
+		img{
+			border-radius: 20;
+			border: 2px solid maroon;
+		}
+		button{
+			box-shadow: 2px 2px 2px 2px;
+			color: maroon;
+			width: 25%;
+		}
+		a{
+			text-decoration: none;
+		}
+		.copy{
+                   text-decoration: none;
+                   text-align: center;
+                   width: 100%;
+                   margin: 1%;
+                   padding: 1%;
+                }
+                .header
+                {
+                	display: flex;
+                	width: 100%;
+                	margin:1%;
+                	padding: 1%;
+                }
+                .header>div{
+                	width: 50%;
+                	padding: 1%;
+                     margin: 1%;
+                }
+                .right{
+                	text-align: center;
+                }
+               
+
+
+		@media only screen and (min-width:320px) and (max-width:480px)
+		{
+			.profile,.header{
+				display: flex;
+				flex-direction: column;
+				max-width:100%;
+			}
+			.profile>div,.header>div{
+				width: 90%;
+				text-align: center;
+			}
+			
+		}
+		@media only screen and (min-width:481px) and (max-width:781px)
+		{
+			body{
+				color:blue;
+			}
+			.profile{
+				display: flex;
+				flex-direction: row;
+				max-width:100%;
+			}
+			.profile>div{
+				width: 90%;
+				background-color: green;
+			}
+		}
+		@media only screen and (min-width:769px) and (max-width:1024px)
+		{
+			body{
+				color:blue;
+			}
+			.profile{
+				display: flex;
+				flex-direction: row;
+				max-width:100%;
+			}
+			.profile>div{
+				width: 90%;
+				background-color: yellow;
+			}
+		}
+
+
+	</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="left">
+				<img src="imga.png" width="200px" height="200px">
+			</div>
+			<div class="right">
+				<h1 style="color: blue"> reactjs</h1>
+				<h3 style="color: blue"> charan</h3>
+				<h4 style="color: blue"> APPSDC</h4>
+			
+			</div>
+		</div>
+		<h1 style="text-align: center; color: maroon">My works </h1>
+		<div class="profile">
+			<div class="card">
+				<img src="imga.png" width="200px" height="200px" alt="profliecard">
+				<h1 style="color:maroon"> prasanna </h1>
+				<hr>
+				<h4>kadapa</h4>
+				<button><a href="#"> view </a></button>
+			</div>
+			<div class="card">
+					<img src="imga.png" width="200px" height="200px" alt="profliecard">
+					<h1 style="color: orange"> charan</h1>
+				<hr>
+					<h4>nandimandalam</h4>
+					<button>view</button>
+			</div>
+			<div class="card">
+					<img src="imga.png" width="200px" height="200px" alt="profliecard">
+					<h1 style="color: red"> malli </h1>
+					<hr>
+					 <h4>kurnool</h4>
+					 <button>view</button>
+		</div>
+	</div>
+	<a href="mailto:chavalisai48@gmail.com"> click on google++</a>
+	<!-- Footer -->
+	<div class="copy">
+		<h1> all copy rights to me </h1>
+	</div>
+
+	</body>
